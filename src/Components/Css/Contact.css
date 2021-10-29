@@ -1,0 +1,236 @@
+.contact {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  background-color: rgb(33, 36, 40);
+  padding: 50px 5px;
+}
+
+.contact_row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+}
+
+.first_Content {
+  width: 350px !important;
+}
+
+.content_col {
+  /* width: 45%; */
+  margin: 15px 10px;
+  box-shadow: -2px 1px 18px 0px rgba(0, 0, 0, 0.274);
+  -webkit-box-shadow: -2px 1px 18px 0px rgba(0, 0, 0, 0.479);
+  -moz-box-shadow: -2px 1px 18px 0px rgba(0, 0, 0, 0.322);
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+
+.form_input {
+  width: 500px;
+  padding: 20px 30px;
+}
+
+.content_info {
+  width: 100%;
+}
+
+.content_info img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.content_info h1 {
+  font-size: 1.25rem;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.bioData_text {
+  text-transform: capitalize;
+}
+
+.content_info p {
+  font-size: 1rem;
+  color: #c5c2c2;
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+.content_info .text_info {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.content_info p span a {
+  margin-left: 10px;
+  color: #bebbbb;
+  position: relative;
+}
+
+.content_info p span a::before {
+  width: 0%;
+  height: 1px;
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  background-color: #6a9113;
+  transition: 0.2s ease-in-out;
+}
+
+.content_info p span:hover a::before {
+  width: 100%;
+}
+
+.top_icon p {
+  margin-top: 40px;
+}
+
+.content_col form {
+  width: 100%;
+}
+
+.content_col form .icon_input {
+  position: relative;
+}
+
+.content_col form .icon_input input,
+textarea {
+  width: 100%;
+  padding: 15px 10px 10px 35px;
+  margin: 10px 0;
+  border: 1px solid transparent;
+  outline: none;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.274);
+  background-color: transparent;
+  resize: none;
+  color: #ffffff;
+}
+
+.content_col form .icon_input input:focus,
+textarea:focus {
+  border: 1px solid #6a9113;
+  transition: 0.5s ease-in-out;
+}
+
+/* javascript  */
+.content_col form .icon_input input.style_Border,
+textarea.style_Border {
+  border: 1px solid red;
+}
+
+::placeholder {
+  color: rgb(153, 153, 153);
+}
+
+.content_col form .icon_input label {
+  color: #dbd6d6dc;
+  font-size: 1rem;
+}
+
+.content_col form .icon_input i {
+  position: absolute;
+  top: 43.5px;
+  z-index: 5;
+  left: 10px;
+  font-size: 15px;
+  color: #5c5c5cdc;
+}
+
+.icon_input input:focus + i {
+  color: #6a9113;
+}
+
+/* javascript  */
+.icon_input input + i.style_Color {
+  color: red;
+}
+
+.icon_input textarea:focus + i {
+  color: #6a9113;
+}
+
+/* javascript  */
+.icon_input textarea + i.style_Color {
+  color: red;
+}
+
+form .submitIcon{
+    width: 100%;
+}
+
+.submitIcon .fa-paper-plane{
+    position: absolute !important;
+    top: 50% !important;
+    left: 37.50% !important;
+    transform: translate(-50%, -50%) !important;
+}
+
+.submitIcon input[type="submit"]{
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.submitIcon input[type="submit"]:hover{
+    border: 1px solid #6a9113;
+    color: #6a9113;
+    transition: 0.2s ease-in-out;
+}
+
+.submitIcon input[type="submit"]:hover + i{
+    color: #6a9113;
+    margin-top: -3px;
+}
+
+
+@media screen and (max-width: 864px){
+    .contact {
+        width: 85%;
+        margin: 100px auto 0 auto;
+      }
+}
+
+@media screen and (max-width: 864px){
+    .contact_row {
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+
+      .first_Content {
+        width: 75% !important;
+      }
+
+      .form_input {
+         width: 75% !important;
+      }
+}
+
+@media screen and (max-width: 600px){
+    .contact {
+        width: 95%;
+        margin: -50px auto 150px auto;
+      }
+
+      .content_col {
+        /* width: 45%; */
+        margin: 15px 5px;
+        padding: 20px 15px;
+      }
+      
+
+      .first_Content {
+        width: 95% !important;
+      }
+
+      .form_input {
+         width: 95% !important;
+      }
+}
+

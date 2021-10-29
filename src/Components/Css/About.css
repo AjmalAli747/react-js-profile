@@ -1,0 +1,125 @@
+.about_container{
+    width: 100%;
+    margin-bottom: 100px;
+    background-color: rgb(33, 36, 40);
+}
+
+.about_row{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px 50px;
+}
+
+.text_center{
+    text-align: center;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+.about_col{
+    flex: 1 1 200px;
+}
+
+.about_col h1{
+    font-size: 2.50rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.about_col p{
+    font-size: 1rem;
+    margin-bottom: 35px;
+    color: #ffffff8a;
+    line-height: 30px;
+}
+
+.about_col button{
+    width: 250px;
+    padding: 18.50px 5px;
+    border: 1px solid #6A9113;
+    background-color: transparent;
+    outline: none;
+    box-shadow: -3px -1px 20px 0px rgba(0, 0, 0, 0.466);
+-webkit-box-shadow: -3px -1px 20px 0px rgba(0, 0, 0, 0.308);
+-moz-box-shadow: -3px -1px 20px 0px rgba(0, 0, 0, 0.24);
+transition: 0.5s ease-in-out;
+border-radius: 5px;
+}
+
+.about_col button:hover{
+    transform: translateY(-10px);
+}
+
+.about_col button a{
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.about_content_row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 30px 50px;
+}
+
+.about_content_col{
+    flex: 1 1 200px;
+    border: 1px solid #6A9113;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.about_content_col i{
+    font-size: 3rem;
+    color: #6A9113;
+    margin: 10px 0;
+}
+
+.about_content_col h1{
+    font-size: 1.50rem;
+    font-weight: normal;
+    color: #FFFFFF;
+    margin: 10px 0;
+}
+
+.about_content_col p{
+    width: 80%;
+    margin:30px auto 20px auto;
+    font-size: 14px;
+    color: #ffffff8a;
+    line-height: 25px;
+}
+
+@media screen and (max-width: 864px){
+    .about_container{
+        width: 85%;
+        margin: -25px auto 0 auto;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .about_container{
+        width: 95%;
+        margin: -150px auto 100px auto;
+        text-align: center;
+    }
+
+    .about_col button{
+        padding: 18.50px 5px;
+    }
+
+    .about_content_row{
+        padding: 30px 10px;
+    }
+}

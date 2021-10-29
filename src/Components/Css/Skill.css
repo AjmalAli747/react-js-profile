@@ -1,0 +1,97 @@
+.skill_continer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  width: 100%;
+  background-color: rgb(33, 36, 40);
+  padding: 50px;
+}
+
+.skill_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skill_col {
+  flex: 1 1 1200px;
+  margin: 15px 0;
+}
+
+.skill_Content {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.skill_bar_Html {
+  width: 80%;
+  height: 15px;
+  background-color: #6a9113;
+  border-radius: 50px;
+  position: relative;
+  z-index: 2;
+}
+
+.skill_bar_Html::before {
+  background-color: #6a9113;
+  color: #ffffff;
+  padding: 3px 10px;
+  position: absolute;
+  top: -50px;
+  right: 10px;
+  content: "85%";
+  z-index: 1;
+  border-bottom-right-radius: 1px;
+}
+
+.css::before {
+  content: "80%";
+}
+
+.Bootstrap::before{
+    content: "70%";
+}
+
+.React::before{
+    content: "60%";
+}
+
+.Javascript::before{
+    content: "55%";
+}
+
+.skill_bar_Html::after {
+  width: 15px;
+  height: 15px;
+  background-color: #6a9113;
+  color: #ffffff;
+  position: absolute;
+  top: -34px;
+  right: 13.5px;
+  content: "";
+  transform: rotate(50deg);
+  z-index: -1;
+}
+
+@media screen and (max-width: 864px) {
+    .skill_continer {
+      width: 85%;
+      margin: 50px auto 30px auto;
+    }
+
+  .skill_bar_Html {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .skill_continer {
+    width: 95%;
+    margin: -80px auto 100px auto;
+    padding: 50px 30px;
+  }
+}

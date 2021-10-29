@@ -1,0 +1,95 @@
+.error{
+    width: 100%;
+    margin: 100px auto 150px auto;
+    background-color: rgb(33, 36, 40);
+    padding: 70px 0;
+}
+
+.error_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error_col{
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.error_col img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.error_col h1{
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px 0;
+    color: #6a9113;;
+    text-transform: uppercase;
+}
+
+.error_col button{
+    padding: 21.50px 100px;
+    border: 1px solid #6a9113;
+    outline: none;
+    background-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.error_col button:hover{
+    border: 1px solid #ffffff;
+}
+
+.error_col a button{
+    color: #FFFFFF;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.error_col a button:hover{
+    color: #6a9113;
+}
+
+.error_col button i{
+    margin-right: 10px;
+    font-size: 1.30rem;
+    color: #6a9113;
+}
+
+.error_col button:hover i{
+    transform: translateX(-10px);
+    transition: 0.2s ease-in-out;
+}
+
+
+@media screen and (max-width: 864px){
+    .error{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .error{
+        width: 95%;
+        margin: -85px auto 150px auto;
+    }
+
+    .error_col h1{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .error_col h1{
+        font-size: 2rem;
+    }
+
+    .error_col button{
+        padding: 18.50px 50px;
+    }
+}
