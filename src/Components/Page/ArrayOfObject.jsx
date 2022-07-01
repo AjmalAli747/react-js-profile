@@ -8,6 +8,7 @@ import Shoesh from "../Image/shosh.jpg";
 import Car from "../Image/car.jpg";
 import Travel_Three from "../Image/travle3.jpg";
 import Country from "../Image/country.jpg";
+import SeoWebSite from "../Image/seoWebsite.jpg";
 
 // clone Project Image
 import LogoInForm from "../Image/loginForm.jpg";
@@ -29,6 +30,14 @@ const Project = [
 
   {
     id: 1,
+    img: SeoWebSite,
+    title: "Seo Website",
+    p: "This is a Seo Website, Useing this  Technology Html, Css. Javascript, React js",
+    link: "https://seo-search.netlify.app/",
+  },
+
+  {
+    id: 2,
     img: ProDigit,
     title: "ProDigit Website",
     p: "Fast Internet On The Largest Speed Network, Useing this  Technology Html, Css, Bootstrap, Javascript",
@@ -36,7 +45,7 @@ const Project = [
   },
 
   {
-    id: 2,
+    id: 3,
     img: Olive,
     title: "Olive Website",
     p: "Find Your Perfect Serviced Apartments, Useing this  Technology Html, Css, Bootstrap, Javascript",
@@ -44,7 +53,7 @@ const Project = [
   },
 
   {
-    id: 3,
+    id: 4,
     img: Travel,
     title: "Travel Website",
     p: "This is a Travel Website, Useing this  Technology Html, Css, Sass, Bootstrap, Javascript",
@@ -52,7 +61,7 @@ const Project = [
   },
 
   {
-    id: 4,
+    id: 5,
     img: Hospital,
     title: "Hospital Website",
     p: "This is a Hospital Website, Useing this  Technology Html, Css, Bootstrap, Javascript",
@@ -60,7 +69,7 @@ const Project = [
   },
 
   {
-    id: 5,
+    id: 6,
     img: Food,
     title: "Food Website",
     p: "This is a Food Website, Useing this  Technology Html, Css, Bootstrap, Javascript",
@@ -68,7 +77,7 @@ const Project = [
   },
 
   {
-    id: 6,
+    id: 7,
     img: Shoesh,
     title: "Shoesh Website",
     p: "This is a Shoesh Website, Useing this  Technology Html, Css, Bootstrap, Javascript",
@@ -76,7 +85,7 @@ const Project = [
   },
 
   {
-    id: 7,
+    id: 8,
     img: Car,
     title: "Car Website",
     p: "This is a Car Website, Useing this  Technology Html, Css, Bootstrap, Javascript",
@@ -84,7 +93,7 @@ const Project = [
   },
 
   {
-    id: 8,
+    id: 9,
     img: Travel_Three,
     title: "Travel Website",
     p: "This is a Travel Website, Useing this  Technology Html, Css, Bootstrap, Javascript",
@@ -92,7 +101,7 @@ const Project = [
   },
 
   {
-    id: 9,
+    id: 10,
     img: Country,
     title: "Country Clone",
     p: "This is a Country Clone, Useing this  Technology Html, Css, Bootstrap, Javascript",
